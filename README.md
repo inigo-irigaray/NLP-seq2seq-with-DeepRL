@@ -1,19 +1,19 @@
 # Leveraging Deep Reinforcement Learning for training seq2seq NLP algorithms
 
 
-**1. Preliminaries.
+**1. Preliminaries.**
 
 
-**2. seq2seq with REINFORCE - the algorithms.
+**2. seq2seq with REINFORCE - the algorithms.**
 
 
-**3. Training.
+**3. Training.**
 
 
-**4. Results & Discussion.
+**4. Results & Discussion.**
 
 
-**5. Future work.
+**5. Future work.**
 
 
 # Introduction
