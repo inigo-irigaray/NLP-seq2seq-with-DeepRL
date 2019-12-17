@@ -1,4 +1,4 @@
-# Leveraging Deep Reinforcement Learning for training seq2seq NLP algorithms
+# Leveraging the power of Deep Reinforcement Learning for training seq2seq NLP algorithms
 
 
 **1. Preliminaries.**
