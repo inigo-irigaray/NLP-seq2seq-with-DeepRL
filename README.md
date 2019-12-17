@@ -1,1 +1,1 @@
-# NLP-seq2seq-Chatbot-trained-with-Deeep-RL
+# Leveraging Deep Reinforcement Learning for training seq2seq NLP algorithms
