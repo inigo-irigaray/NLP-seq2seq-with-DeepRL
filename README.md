@@ -15,19 +15,16 @@ This project / work empirically shows the benefits of combining deep reinforceme
 
 
 ---------
-# Introduction
+# 1. Preliminaries
 
 
-# Preliminaries
+# 2. seq2seq with REINFORCE
 
 
-# seq2seq with REINFORCE
+# 3. Training
 
 
-# Training
+# 4. Results & Discussion
 
 
-# Results & Discussion
-
-
-# Future Work
+# 5. Future Work
