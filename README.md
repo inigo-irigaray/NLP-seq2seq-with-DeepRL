@@ -1,9 +1,9 @@
 # Leveraging the power of Deep Reinforcement Learning for training NLP algorithms
 
 
-This project / work empirically shows the benefits of combining deep reinforcement learning (DLR) methods with popular Natural Language Processing (NLP) algorithms in the pursuit of state-of-the-art results using a very simple database as benchmark. 
+This project / work empirically shows the benefits of combining deep reinforcement learning (DLR) methods with popular Natural Language Processing (NLP) algorithms in the pursuit of state-of-the-art results using a simple Cornell University movie dialogues database as benchmark. 
 
-**1. Preliminaries.** Introduces a conceptual background on NLP systems and state-of-the-art algorithms for conversational modelling, 
+**1. Preliminaries.** Introduces a conceptual background on the NLP literature and state-of-the-art algorithms for conversational modelling, machine translation and other key challenges in the field; as well as the BLEU metric against which the model will be evaluated.
 
 **2. seq2seq with REINFORCE - the algorithms.** Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
 
@@ -26,5 +26,6 @@ This project / work empirically shows the benefits of combining deep reinforceme
 
 # 4. Results & Discussion
 
+results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
 # 5. Future Work
