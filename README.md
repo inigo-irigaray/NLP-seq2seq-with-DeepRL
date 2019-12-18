@@ -1,7 +1,7 @@
 # Leveraging the power of Deep Reinforcement Learning for training NLP algorithms
 
 
->**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project empirically shows the benefits of >combining Deep Reinforcement Learning (DLR) methods with popular Natural Language Processing (NLP) algorithms in the pursuit >of state-of-the-art results in dialogue interactions and other human language comprehension tasks. The experiment is based on >the simple Cornell University movie dialogues database and integrates the sequence-to-sequence(seq2seq) model of LSTM >networks into cross-entropy learning for pretraining and the REINFORCE method. Thus, the algorithm**
+>**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project empirically shows the benefits of combining Deep Reinforcement Learning (DLR) methods with popular Natural Language Processing (NLP) algorithms in the pursuit of state-of-the-art results in dialogue interactions and other human language comprehension tasks. The experiment is based on the simple Cornell University movie dialogues database and integrates the sequence-to-sequence(seq2seq) model of LSTM networks into cross-entropy learning for pretraining and the REINFORCE method. Thus, the algorithm**
 <p>
 
 </p>
