@@ -9,7 +9,7 @@ This project empirically shows the benefits of combining deep reinforcement lear
 
 **3. Training.** Analyses the progress, duration and statistics of the two different training methods until halting.
 
-**4. Results & Discussion.** Tests the chatbot agent generated from the model ina free Telegram environment.
+**4. Results & Discussion.** Tests the chatbot agent generated from the model in the free open Telegram environment.
 
 **5. Future work.** Explores potential avenues of interest for future research.
 
