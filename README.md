@@ -11,7 +11,7 @@ This project empirically shows the benefits of combining deep reinforcement lear
 
 **4. Results & Discussion.** Tests the chatbot agent generated from the model ina free Telegram environment.
 
-**5. Future work.** Explores avenues of interest for future research.
+**5. Future work.** Explores potential avenues of interest for future research.
 
 
 ---------
