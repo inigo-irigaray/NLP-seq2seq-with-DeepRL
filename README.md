@@ -5,15 +5,11 @@ This project / work empirically shows the benefits of combining deep reinforceme
 
 **1. Preliminaries.** Introduces a conceptual background on NLP systems and state-of-the-art algorithms for conversational modelling, 
 
-
 **2. seq2seq with REINFORCE - the algorithms.** Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
-
 
 **3. Training.** Analyses the progress, duration and statistics of the two different training methods until halting.
 
-
 **4. Results & Discussion.** Tests the chatbot agent generated from the model ina free Telegram environment.
-
 
 **5. Future work.** Explores avenues of interest for future research.
 
