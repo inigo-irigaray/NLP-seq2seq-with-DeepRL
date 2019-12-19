@@ -16,7 +16,7 @@
 
 
 ---------
-# 1. Preliminaries
+## 1. Preliminaries
 
 #### Embeddings
 
@@ -26,14 +26,14 @@
 
 #### Bilingual evaluation uderstudy (BLEU)
 
-# 2. Seq2seq with Cross-Entropy & REINFORCE
+## 2. Seq2seq with Cross-Entropy & REINFORCE
 
 
-# 3. Training
+## 3. Training
 
 
-# 4. Results & Discussion
+## 4. Results & Discussion
 
 results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
-# 5. Future Work
+## 5. Future Work
