@@ -8,7 +8,7 @@
 
 **2. seq2seq with Cross-Entropy & REINFORCE - the algorithms.** Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
 
-**3. Training.** Analyses the progress, duration and statistics of the two different training methods until halting.
+**3. Training.** Analyzes the progress, duration and statistics of the two different training methods until halting.
 
 **4. Results & Discussion.** Tests the chatbot agent generated from the model in the free open Telegram environment.
 
