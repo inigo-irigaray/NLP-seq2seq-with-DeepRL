@@ -30,6 +30,14 @@ basic def of embeddings, word2vec + limitations, character embeddings, contextua
 
 ## 2. Seq2seq with Cross-Entropy & REINFORCE
 
+#### seq2seq
+
+#### Cross-Entropy (log-likelihood)
+
+teacher-forcing vs curriculum learning
+
+#### REINFORCE
+
 
 ## 3. Training
 
