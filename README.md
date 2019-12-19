@@ -18,6 +18,13 @@
 ---------
 # 1. Preliminaries
 
+#### Embeddings
+
+#### Deep learning models
+
+#### Deep reinforcement learning applications
+
+#### Bilingual evaluation uderstudy (BLEU)
 
 # 2. Seq2seq with Cross-Entropy & REINFORCE
 
