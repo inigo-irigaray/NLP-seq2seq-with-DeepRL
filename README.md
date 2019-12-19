@@ -20,6 +20,8 @@
 
 #### Embeddings
 
+basic def of embeddings, word2vec + limitations, character embeddings, contextualized word embeddings ELMo
+
 #### Deep learning models
 
 #### Deep reinforcement learning applications
