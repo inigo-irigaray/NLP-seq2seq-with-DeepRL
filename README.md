@@ -12,7 +12,7 @@
 
 **4. Results & Discussion.** Tests the chatbot agent generated from the model in the free open Telegram environment.
 
-**5. Future work.** Explores potential avenues of interest for future research.
+**5. Future work.** Explores potential avenues of interest for future experiments.
 
 
 ---------
