@@ -20,13 +20,40 @@
 
 #### Embeddings
 
-basic def of embeddings, word2vec + limitations, character embeddings, contextualized word embeddings ELMo
+basic def of embeddings
+word2vec + limitations: polisemy, sentiment, out-of-vocabulary words, phrases (idios, NER), conceptual meaning
+character embeddings: + OOV, morphologically-rich languages - conceptual meaning
+contextualized word embeddings ELMo, OpenAI-GPT and BERT
 
-#### Deep learning models
+#### CNNs
+
+General need / effectiveness
+Sentence modelling: 
+Window approach: word-based predictions
+
+#### RNNs
+
+Vanilla
+LSTM
+GRU
+
+word-level, sentence-level, language generation
+
+attention mechanisms - MemNet
+
+Transformer - BERT && OpenAI_GPT
+
+#### Recursive NNs
+
+Constituency-based trees - RNTNs
 
 #### Deep reinforcement learning applications
 
-#### Recursive Neural Networks [2]
+basic overview
+
+#### Unsupervised && Generative && Memory augmentation
+
+VAEs GANs
 
 #### Bilingual evaluation uderstudy (BLEU)
 
