@@ -26,6 +26,8 @@ basic def of embeddings, word2vec + limitations, character embeddings, contextua
 
 #### Deep reinforcement learning applications
 
+#### Recursive Neural Networks [2]
+
 #### Bilingual evaluation uderstudy (BLEU)
 
 ## 2. Seq2seq with Cross-Entropy & REINFORCE
@@ -48,3 +50,10 @@ results deteriorating, while training improving -> overfitting to the limited da
 Telegram
 
 ## 5. Future Work
+
+
+## References
+
+T. Young, D. Hazarika, S. Poria and E. Cambria, "Recent Trends in Deep Learning Based Natural Language Processing", 2017.
+
+R. Socher, A. Perelygin, J.Y. Wu, J. Chuang, C.D. Manning, A.Y. Ng and C. Potts, "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", 2013.
