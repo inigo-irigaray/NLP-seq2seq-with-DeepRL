@@ -27,7 +27,7 @@ Embeddings are distributional vectors representing different levels of linguisti
 
 
 basic def of embeddings
-word2vec + limitations: polisemy, sentiment, out-of-vocabulary words, phrases (idios, NER), conceptual meaning
+word2vec + limitations: polisemy, sentiment, out-of-vocabulary words, phrases (idioms, NER), conceptual meaning
 character embeddings: + OOV, morphologically-rich languages - conceptual meaning
 contextualized word embeddings ELMo, OpenAI-GPT and BERT
 
@@ -87,6 +87,10 @@ Telegram
 
 ## References
 
-[1] T. Young, D. Hazarika, S. Poria and E. Cambria, "Recent Trends in Deep Learning Based Natural Language Processing", 2017.
+[1]  D. Jurafsky and J.H. Martin, "Speech and Language Processing (Unpublished Draft)", 2019.
 
-[2] R. Socher, A. Perelygin, J.Y. Wu, J. Chuang, C.D. Manning, A.Y. Ng and C. Potts, "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", 2013.
+[2] T. Young, D. Hazarika, S. Poria and E. Cambria, "Recent Trends in Deep Learning Based Natural Language Processing", 2017.
+
+[3] R. Socher, A. Perelygin, J.Y. Wu, J. Chuang, C.D. Manning, A.Y. Ng and C. Potts, "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", 2013.
+
+
