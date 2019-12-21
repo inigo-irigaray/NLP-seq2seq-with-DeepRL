@@ -22,7 +22,10 @@
 
 #### Embeddings
 
-Embeddings are distributional vectors representing different levels of linguistic structures (characters and words). They capture meaning by encoding reference attributes to each structure 
+Embeddings are distributional vectors representing different levels of linguistic structures (characters and words). They capture meaning by encoding reference attributes to each structure based on the context in which it apperas, i.e. the other words and characters that tend to appear next to the target structure.
+
+
+
 basic def of embeddings
 word2vec + limitations: polisemy, sentiment, out-of-vocabulary words, phrases (idios, NER), conceptual meaning
 character embeddings: + OOV, morphologically-rich languages - conceptual meaning
