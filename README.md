@@ -26,7 +26,7 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Word2vec</b> are some of the most popular word embedding algorithms. The <b>skip-gram</b> model predicts context words based on the target word. It trains a logistic regression classifier that computes the conditional probability between pairs of words with the dot product between their embeddings. Opposite to skip-gram, the continuous bag-of-words (<b>CBOW</b>) predicts a target word from the context words. Based on fully-connected NNs with one hidden-layer, these methods allow for efficient representations of dense vectors that capture semantic and syntactic information. However, they are weak on sentiment, polisemy, phrase meaning, conceptual meaning and out-of-vocabulary (OOV) words, which is problematic for some tasks [2, 1-Ch6].</p>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contextualized word embeddings are another type of embeddings that directly address some of these issues. <b>ELMo</b> creates a different word embedding for each context in which a word appears, thus capturing polisemic meaning. It consists of a bidirectional language model of a forward Long Short-Term Memory (LSTM) network to model the joint probability of a series of input tokens and predict the next token, a backward LSTM network that predicts the previous token and the cross-entropy loss between the two predictions. <b>OpenAI-GPT-2, BERT</b></p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contextualized word embeddings are another type of embeddings that directly address some of these issues. <b>ELMo</b> creates a different word embedding for each context in which a word appears, thus capturing polisemic meaning. It consists of a bidirectional language model of a forward Long Short-Term Memory (LSTM) network to model the joint probability of a series of input tokens and predict the next token, a backward LSTM network that predicts the previous token and the cross-entropy loss between the two predictions.</p>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternatively, approaching the embedding problem at the character-level has allowed researchers to tackle some issues aforementioned and tasks like named-equity recognition (NER), adding meaning to phrases by representing words simply as a combination of characters. Additionally, they prove more effective with some morphologically-rich languages like Spanish, and languages where text is composed of individual characters instead of separated words like Chinese. Some of these algorithms include character trigrams and skip-grams as bag-of-character n-grams [2].</p>
 
@@ -38,7 +38,9 @@
 
 #### Attention Mechanisms
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous hidden state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset [1-Ch10, 2]. Memory networks (<b>MemNets</b>)
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous hidden state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset, essentially adding context at different decoding timesteps [1-Ch10, 2].</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End-to-end memory networks (<b>MemNets</b>) adopt this approach combined with memory augmentation. [7].</p>
   
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
@@ -99,3 +101,5 @@ general description and analysis
 [5] J. Gehring, M. Auli, D. Grangier, D. Yarats and Y.N. Dauphin, "Convolutional Sequence to Sequence Learning", 2017.
 
 [6] M. Ranzato, S. Chopra, M. Auli and W. Zaremba, "Sequence Level Training with Recurrent Neural Networks", 2015.
+
+[7] S. Sukhbaatar, A. Szlam, J. Weston and R. Fergus, "End-to-end Memory Networks", 2015.
