@@ -32,9 +32,9 @@
 
 #### RNNs
 
-Vanilla
-LSTM
-GRU
+<p align=justify> <b>vanilla RNNs</b>
+<p align=justify> <b>LSTM</b>
+<p align=justify> gated recurrent units (<b>GRUs</b>)
 
 #### Attention Mechanisms
 
