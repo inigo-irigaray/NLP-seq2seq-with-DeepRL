@@ -44,7 +44,7 @@ Transformer - BERT && OpenAI_GPT
 
 #### CNNs
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convolutional neural networks (**CNNs**) are very effective feature abstraction tools that can extract high-level information from large corpora and their embedded representations. CNNs have been used to create latent semantic representations of sentences, obtaining a global summarization of the sentence features through deep layers of convolutions [2]. Often times, however, word-level representations are required for many NLP tasks and RNNs have traditionnaly been prioritized since they are designed to capture the sequential nature of language while CNNs draw a broader generalized overall picture. Some recent works have been able to address sequence modelling through the **window** approach. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convolutional neural networks (**CNNs**) are very effective feature abstraction tools that can extract high-level information from large corpora and their embedded representations. CNNs have been used to create latent semantic representations of sentences, obtaining a global summarization of the sentence features through deep layers of convolutions [2]. Often times, however, word-level representations are required for many NLP tasks and RNNs have traditionnaly been prioritized since they are designed to capture the sequential nature of language while CNNs draw a broader generalized overall picture. Some recent works have been able to address sequence modelling through the **window approach**. 
 
 Window approach - word-based predictions, gated convolutional networks - capped on the right, predict from future input is cheating
 
