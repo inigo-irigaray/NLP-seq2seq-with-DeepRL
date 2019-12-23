@@ -41,7 +41,9 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous hidden state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset, essentially adding context at different decoding timesteps [1-Ch10, 2].</p>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End-to-end memory networks (<b>MemNets</b>) adopt this approach in a way that the attention system resembles a sort of internal memory. The model stores all the embedded input sentences in a memory and embeds the query as well. Importance weights of the memory input items are calculated by taking a softmax of the dot-product between the embedded query and the input memory. These weights represent the attention or importance given to each input data. The importance-adjusted input data is then added to the embedded query, and processed through a weight matrix and a softmax to generate the final prediction. This process can be performed in an iterative way as shown in Figure 1 for more clarity [7].</p>
-  
+
+<img style="float: center;" src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/MemNet.png" height=305 width=675>
+
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
 #### CNNs
