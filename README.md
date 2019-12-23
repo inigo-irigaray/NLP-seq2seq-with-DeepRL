@@ -36,8 +36,6 @@ Vanilla
 LSTM
 GRU
 
-word-level, sentence-level, language generation
-
 attention mechanisms - MemNet
 
 Transformer - BERT && OpenAI_GPT
