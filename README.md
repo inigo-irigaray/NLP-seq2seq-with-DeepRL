@@ -47,7 +47,7 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another landmark architecture employing attention mechanisms is the <b>transformer</b> network. This model replaces the RNNs and CNNs typically used in encoder-decoder frameworks with attention layers, as shown in Figure 2. The encoder consists of a series of identical stacked layers, each with two sublayers: a <b>multi-head</b> attention mechanism and a normal fully-connected network. The decoder is similar to the encoder, but it includes an extra multi-head attention layer to process encoder output. Additionally, information from future positions in the input to the first multi-head layer is masked, since it would be cheating to make predictions with input from steps ahead. The model uses residual connections in each sublayer, as proposed in <i>ResNet</i>, followed by layer normalization.
   
- Multi-head attention layer perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions.<b>BERT</b> <b>OpenAI-GPT</b>
+Multi-head attention layers perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions.<b>BERT</b> <b>OpenAI-GPT</b>
 
 #### CNNs
 
