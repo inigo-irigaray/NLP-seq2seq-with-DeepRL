@@ -38,9 +38,9 @@
 
 #### Attention Mechanisms
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous hidden state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset. Memory networks (<b>MemNets</b>)
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous hidden state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset. Memory networks (<b>MemNets</b>)
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
 #### CNNs
 
