@@ -36,9 +36,11 @@ Vanilla
 LSTM
 GRU
 
-attention mechanisms - MemNet
+#### Attention Mechanisms
 
-Transformer - BERT && OpenAI_GPT
+<p align=justify> <b>MemNet</b>
+
+<p align=justify> <b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
 #### CNNs
 
