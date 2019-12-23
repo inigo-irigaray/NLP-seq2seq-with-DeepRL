@@ -38,9 +38,9 @@ GRU
 
 #### Attention Mechanisms
 
-<p align=justify> <b>MemNet</b>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>MemNet</b>
 
-<p align=justify> <b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
 #### CNNs
 
