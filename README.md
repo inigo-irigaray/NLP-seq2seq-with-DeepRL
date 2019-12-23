@@ -54,13 +54,13 @@ Window approach - word-based predictions, gated convolutional networks - capped 
 
 Constituency-based trees - RNTNs
 
-#### Deep reinforcement learning applications
-
-basic overview
-
 #### Unsupervised && Generative && Memory augmentation
 
 VAEs GANs
+
+#### Deep reinforcement learning applications
+
+basic overview
 
 #### Bilingual evaluation uderstudy (BLEU)
 
