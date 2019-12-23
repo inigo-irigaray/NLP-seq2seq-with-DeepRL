@@ -44,7 +44,7 @@ Transformer - BERT && OpenAI_GPT
 
 #### CNNs
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convolutional neural networks (CNNs) are very effective feature abstraction tools that can extract high-level information from large corpora and their embedded representations. CNNs have been used to create latent semantic representations of sentences, obtaining a global summarization of the sentence features through deep layers of convolutions [2]. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convolutional neural networks (CNNs) are very effective feature abstraction tools that can extract high-level information from large corpora and their embedded representations. CNNs have been used to create latent semantic representations of sentences, obtaining a global summarization of the sentence features through deep layers of convolutions [2]. Often times, however, 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -94,4 +94,6 @@ Telegram
 
 [3] R. Socher, A. Perelygin, J.Y. Wu, J. Chuang, C.D. Manning, A.Y. Ng and C. Potts, "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", 2013.
 
+[4] Y.N. Dauphin, A. Fan, M. Auli and D. Grangier, "Language Modeling with Gated Convolutional Networks", 2016.
 
+[5] J. Gehring, M. Auli, D. Grangier, D. Yarats and Y.N. Dauphin, "Convolutional Sequence to Sequence Learning", 2017.
