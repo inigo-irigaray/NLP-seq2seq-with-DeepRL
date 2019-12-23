@@ -32,9 +32,11 @@
 
 #### CNNs
 
-General need / effectiveness
-Sentence modelling: 
-Window approach: word-based predictions
+Feature abstraction from embeddings
+
+Sentence modelling - graph
+
+Window approach - word-based predictions, gated convolutional networks - capped on the right, predict from future input is cheating
 
 #### RNNs
 
