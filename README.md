@@ -106,3 +106,5 @@ general description and analysis
 [6] M. Ranzato, S. Chopra, M. Auli and W. Zaremba, "Sequence Level Training with Recurrent Neural Networks", 2015.
 
 [7] S. Sukhbaatar, A. Szlam, J. Weston and R. Fergus, "End-to-end Memory Networks", 2015.
+
+[8] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez and L. Kaiser, "Attention is All You Need", 2017.
