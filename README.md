@@ -77,11 +77,11 @@ teacher-forcing vs curriculum learning
 
 ## 3. Training
 
-results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
+general description and analysis
 
 ## 4. Results & Discussion
 
-Telegram
+27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
 ## 5. Future Work
 
