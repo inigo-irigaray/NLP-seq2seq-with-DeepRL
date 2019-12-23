@@ -43,7 +43,7 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End-to-end memory networks (<b>MemNets</b>) adopt this approach in a way that the attention system resembles a sort of internal memory. The model stores all the embedded input sentences in a memory and embeds the query as well. Importance weights of the memory input items are calculated by taking a softmax of the dot-product between the embedded query and the input memory. These weights represent the attention or importance given to each input data. The importance-adjusted input data is then added to the embedded query, and processed through a weight matrix and a softmax to generate the final prediction. This process can be performed in an iterative way as shown in Figure 1 for more clarity [7].</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/MemNet.png" height=305 width=675></p>
-<p align="center">Figure 1: MemNet. 1a Single-layer MemNet. 1b Multi-layer MemNet. Source: Sukhbaatar et al. [7].</p>
+<p align="center"><b>Figure 1:</b> MemNet. <b>1a</b> Single-layer MemNet. <b>1b</b> Multi-layer MemNet. <b>Source:</b> Sukhbaatar et al. [7].</p>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Transformer</b> <b>BERT</b> <b>OpenAI-GPT</b>
 
