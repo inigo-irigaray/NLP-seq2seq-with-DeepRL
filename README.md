@@ -6,13 +6,13 @@
 -------
 <p align=justify><b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#1-preliminaries>1. Preliminaries.</a></b> Introduces a conceptual background on the NLP literature and state-of-the-art algorithms for conversational modelling, machine translation and other key challenges in the field; as well as the BLEU metric against which the model will be evaluated.
 
-<b>2. seq2seq with Cross-Entropy & REINFORCE - the algorithms.</b> Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#2-seq2seq-with-cross-entropy--reinforce>2. seq2seq with Cross-Entropy & REINFORCE - the algorithms.</a></b> Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
 
-<b>3. Training.</b> Analyzes the progress, duration and statistics of the two different training methods until halting.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training>3. Training.</a></b> Analyzes the progress, duration and statistics of the two different training methods until halting.
 
-<b>4. Results & Discussion.</b> Tests the chatbot agent generated from the model in the free open Telegram environment.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#4-results--discussion>4. Results & Discussion.</a></b> Tests the chatbot agent generated from the model in the free open Telegram environment.
 
-<b>5. Future work.</b> Explores potential avenues of interest for future experiments.</p>
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#5-future-work>5. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
 
 
 ---------
