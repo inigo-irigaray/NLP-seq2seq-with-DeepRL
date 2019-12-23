@@ -10,7 +10,7 @@
 
 <b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training>3. Training.</a></b> Analyzes the progress, duration and statistics of the two different training methods until halting.
 
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#4-results--discussion>4. Results & Discussion.</a></b> Tests the chatbot agent generated from the model in the free open Telegram environment.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#4-results--discussion>4. Results & Discussion.</a></b> CHANGE CHANGE CHANGE Tests the chatbot agent generated from the model in the free open Telegram environment.
 
 <b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#5-future-work>5. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
 
