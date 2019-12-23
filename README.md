@@ -30,14 +30,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternatively, approaching the embedding problem at the character-level has allowed to researchers to tackle some issues aforementioned, like OOVs, and tasks like named-equity recognition (NER), adding meaning to phrases by representing words simply as a combination of characters. Additionally, they prove more effective with some morphologically-rich languages like Spanish, and languages where text is composed of individual characters instead of separated words like Chines. Some of these algorithms include character trigrams and skip-grams as bag-of-character n-grams [2].
 
-#### CNNs
-
-Feature abstraction from embeddings
-
-Sentence modelling - graph
-
-Window approach - word-based predictions, gated convolutional networks - capped on the right, predict from future input is cheating
-
 #### RNNs
 
 Vanilla
@@ -49,6 +41,14 @@ word-level, sentence-level, language generation
 attention mechanisms - MemNet
 
 Transformer - BERT && OpenAI_GPT
+
+#### CNNs
+
+Feature abstraction from embeddings
+
+Sentence modelling - graph
+
+Window approach - word-based predictions, gated convolutional networks - capped on the right, predict from future input is cheating
 
 #### Recursive NNs
 
