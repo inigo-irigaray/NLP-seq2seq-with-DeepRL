@@ -51,7 +51,7 @@
 <p align="center"><b>Figure 2:</b> Transformer network. <b>Source:</b> Vaswani et al. [8].</p>
 
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi-head attention layers perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions. </p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi-head attention layers perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions [8].</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/multihead.png" height=305 width=675></p>
 <p align="center"><b>Figure 3:</b> Multi-head attention function. <b>Source:</b> Vaswani et al. [8].</p>
