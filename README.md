@@ -55,6 +55,10 @@ Constituency-based trees - RNTNs
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTNtree.png" height=255 width=446><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTN.png" height=255 width=300></p>
 <p align="center"><b>Figure 1:</b> RNTN. <b>1 left</b> RNTN tree. <b>1 right</b> RNTN matrix operations. <b>Source:</b>Own elaboration and Socher et al. [7].</p>
 
+#### Generative
+
+VAEs GANs
+
 #### Attention Mechanisms
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous latent state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset, essentially adding context at different decoding timesteps [1-Ch10, 2].</p>
@@ -76,10 +80,6 @@ Constituency-based trees - RNTNs
 <p align="center"><b>Figure 4:</b> Multi-head attention function. <b>Source:</b> Vaswani et al. [8].</p>
 
 <b>BERT</b> <b>OpenAI-GPT</b>
-
-#### Generative
-
-VAEs GANs
 
 #### Deep reinforcement learning applications
 
