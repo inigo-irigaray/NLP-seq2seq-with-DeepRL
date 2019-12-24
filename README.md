@@ -74,6 +74,9 @@
 
 Constituency-based trees - RNTNs
 
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTNtree.png" height=255 width=446><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTN.png" height=255 width=300></p>
+<p align="center"><b>Figure 1:</b> RNTN tree. <b>1a</b> RNTN matrix operations. <b>1b</b> Multi-layer MemNet. <b>Source:</b>Own elaboration and Socher et al. [7].</p>
+
 #### Generative
 
 VAEs GANs
