@@ -53,7 +53,7 @@
 Constituency-based trees - RNTNs
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTNtree.png" height=255 width=446><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTN.png" height=255 width=300></p>
-<p align="center"><b>Figure 1:</b> RNTN. <b>1a</b> RNTN tree. <b>1b</b> RNTN matrix operations. <b>Source:</b>Own elaboration and Socher et al. [7].</p>
+<p align="center"><b>Figure 1:</b> RNTN. <b>1 left</b> RNTN tree. <b>1 right</b> RNTN matrix operations. <b>Source:</b>Own elaboration and Socher et al. [7].</p>
 
 #### Attention Mechanisms
 
