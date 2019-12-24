@@ -48,34 +48,34 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Especially relevant has been the success of Gated CNNs (<b>GCNNs</b>), which have beaten previous state-of-the-art results from LSTM-based recurrent models at some NLP tasks. This architecture consists of encoder-decoder convolution models and is constructed upon 4 solid foundations. Firstly, it employs gated linear units (<b>GLUs</b>) non-linearities that allow the networks to change the scope of abstraction from the full input field to fewer elements within it by covenience. Secondly, for decoder networks it <b>caps the convolution window</b> at the front so it will not learn to make word predictions having already considered future information. Thirdly, it uses <b>residual connections</b> from the input to layer outputs as proposed in <i>ResNet</i> that allow for deeper concolutions. Finally, it employs a <b>multi-step attention mechanism</b> which informs the decoder about the full history of previous inputs having been considered, while RNNs may partially lose this sequence information as it travels through multiple non-linearities [4, 5].</p>
 
-#### Attention Mechanisms
-
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous latent state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset, essentially adding context at different decoding timesteps [1-Ch10, 2].</p>
-
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End-to-end memory networks (<b>MemNets</b>) adopt this approach in a way that the attention system resembles a sort of internal memory. The model stores all the embedded input sentences in a memory and embeds the query as well. Importance weights of the memory input items are calculated by taking a softmax of the dot-product between the embedded query and the input memory. These weights represent the attention or importance given to each input data. The importance-adjusted input data is then added to the embedded query, and processed through a weight matrix and a softmax to generate the final prediction. This process can be performed in an iterative way as shown in Figure 1 for more clarity [7].</p>
-
-<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/MemNet.png" height=305 width=675></p>
-<p align="center"><b>Figure 1:</b> MemNet. <b>1a</b> Single-layer MemNet. <b>1b</b> Multi-layer MemNet. <b>Source:</b> Sukhbaatar et al. [7].</p>
-
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another landmark architecture employing attention mechanisms is the <b>transformer</b> network. This model replaces the RNNs and CNNs typically used in encoder-decoder frameworks with attention layers, as shown in Figure 2. The encoder consists of a series of identical stacked layers, each with two sublayers: a <b>multi-head</b> attention mechanism and a normal fully-connected network. The decoder is similar to the encoder, but it includes an extra multi-head attention layer to process encoder output. Additionally, information from future positions in the input to the first multi-head layer is masked, since it would be cheating to make predictions with input from steps ahead. The model uses residual connections in each sublayer, as proposed in <i>ResNet</i>, followed by layer normalization.</p>
-
-<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/transformer.png" height=450 width=335></p>
-<p align="center"><b>Figure 2:</b> Transformer network. <b>Source:</b> Vaswani et al. [8].</p>
-
-
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi-head attention layers perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions [8].</p>
-
-<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/multihead.png" height=305 width=675></p>
-<p align="center"><b>Figure 3:</b> Multi-head attention function. <b>Source:</b> Vaswani et al. [8].</p>
-
-<b>BERT</b> <b>OpenAI-GPT</b>
-
 #### Recursive NNs
 
 Constituency-based trees - RNTNs
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTNtree.png" height=255 width=446><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/RNTN.png" height=255 width=300></p>
 <p align="center"><b>Figure 1:</b> RNTN. <b>1a</b> RNTN tree. <b>1b</b> RNTN matrix operations. <b>Source:</b>Own elaboration and Socher et al. [7].</p>
+
+#### Attention Mechanisms
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In encoder-decoder systems sometimes encoders are inefficiently forced to encode embeddings that are not fully relevant. Attention mechanisms bound decoders by a history of the input data in addition to the previous latent state and generated token. This works as a mapping between certain value pairs and allows the network to focus on specific data from the whole dataset, essentially adding context at different decoding timesteps [1-Ch10, 2].</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End-to-end memory networks (<b>MemNets</b>) adopt this approach in a way that the attention system resembles a sort of internal memory. The model stores all the embedded input sentences in a memory and embeds the query as well. Importance weights of the memory input items are calculated by taking a softmax of the dot-product between the embedded query and the input memory. These weights represent the attention or importance given to each input data. The importance-adjusted input data is then added to the embedded query, and processed through a weight matrix and a softmax to generate the final prediction. This process can be performed in an iterative way as shown in Figure 2 for more clarity [7].</p>
+
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/MemNet.png" height=305 width=675></p>
+<p align="center"><b>Figure 2:</b> MemNet. <b>2a</b> Single-layer MemNet. <b>2b</b> Multi-layer MemNet. <b>Source:</b> Sukhbaatar et al. [7].</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another landmark architecture employing attention mechanisms is the <b>transformer</b> network. This model replaces the RNNs and CNNs typically used in encoder-decoder frameworks with attention layers, as shown in Figure 3. The encoder consists of a series of identical stacked layers, each with two sublayers: a <b>multi-head</b> attention mechanism and a normal fully-connected network. The decoder is similar to the encoder, but it includes an extra multi-head attention layer to process encoder output. Additionally, information from future positions in the input to the first multi-head layer is masked, since it would be cheating to make predictions with input from steps ahead. The model uses residual connections in each sublayer, as proposed in <i>ResNet</i>, followed by layer normalization.</p>
+
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/transformer.png" height=450 width=335></p>
+<p align="center"><b>Figure 3:</b> Transformer network. <b>Source:</b> Vaswani et al. [8].</p>
+
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi-head attention layers perform parallel dot-product attention functions on the queries, keys and values, which have been previously linearly projected <i>h</i> times. The outputs are then concatenated and projected linearly again. Thus, the model is able to learn from different representation subspaces at different positions [8].</p>
+
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/multihead.png" height=305 width=675></p>
+<p align="center"><b>Figure 4:</b> Multi-head attention function. <b>Source:</b> Vaswani et al. [8].</p>
+
+<b>BERT</b> <b>OpenAI-GPT</b>
 
 #### Generative
 
