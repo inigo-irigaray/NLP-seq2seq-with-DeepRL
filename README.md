@@ -59,16 +59,16 @@
 
 #### Generative
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DeepFakes have put deep generative models at the center of controversy and discussion, especially with fake videos about high-ranking officials. There has been some research in the last couple of years seeking to apply these models in NLP tasks, revolving around the two most common structures: VAEs and GANs.
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DeepFakes have put deep generative models at the center of controversy and discussion, especially with fake videos about high-ranking officials. There has been some research in the last couple of years seeking to apply these models in NLP tasks, revolving around the two most common structures: VAEs and GANs.</p>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variational autoencoders (<b>VAEs</b>) consist of an encoder-decoder scheme of NNs whichs is iteratively optimized. Unlike vanilla autoencoders, VAEs regularize the latent space according to a Gaussian normal distribution in order to obtain a stable and reliable representation of language structures so that the generator can sample new meaningful states from it. The loss function is calculated as the sum of the reconstruction error loss (the mean-squared error between the encoded input and decoded output) and the regularisation loss (the Kullback-Leibler divergence between the encoded distribution and the normal Gaussian distribution) [9]. Some modifications have successfully been implemented, like augmenting the unstructured <i>z</i> space with structured <i>c</i> variables which target specific salient semantic features of sentences (e.g. a positive/negative attribute for sentiment) [10].
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variational autoencoders (<b>VAEs</b>) consist of an encoder-decoder scheme of NNs whichs is iteratively optimized. Unlike vanilla autoencoders, VAEs regularize the latent space according to a Gaussian normal distribution in order to obtain a stable and reliable representation of language structures so that the generator can sample new meaningful states from it. The loss function is calculated as the sum of the reconstruction error loss (the mean-squared error between the encoded input and decoded output) and the regularisation loss (the Kullback-Leibler divergence between the encoded distribution and the normal Gaussian distribution) [9]. Some modifications have successfully been implemented, like augmenting the unstructured <i>z</i> space with structured <i>c</i> variables which target specific salient semantic features of sentences (e.g. a positive/negative attribute for sentiment) [10].</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAE.png" height=305 width=839></p>
 <p align="center"><b>Figure 2:</b> VAE generation diagram. <b>Source:</b> Rocca [9].</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAEs.png" height=305 width=645></p>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generative adversarial networks (<b>GANs</b>) 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generative adversarial networks (<b>GANs</b>) are systems consisting of a neural network generator and discrimator. The generator will be fed random noise, from which it will create new data which replicates as much as possible the underlying distribution of some real data. The job of the generator is to trick the discriminator into believing that its output comes from real data (discriminator accuracy of 0.5), while the discriminator's mission is to separate fake from real inputs [11]. 
 
 #### Attention Mechanisms
 
@@ -142,5 +142,7 @@ general description and analysis
 
 #### <p>[10] Z. Hu, Z. Yang, X. Liang, R. Salakhutdinov and E.P. Xing, "Toward Controlled Generation of Text", <i>arXiv:1703.00955</i>, 2017.</p>
 
-#### <p>[10] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence
+#### <p>[11] I.J. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville and Y. Bengio, "Generative Adversarial Networks", <i>arXiv:1406.2661</i>, 2014.</p>
+
+#### <p>[12] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence
 Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
