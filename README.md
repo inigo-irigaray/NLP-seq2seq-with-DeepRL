@@ -90,7 +90,9 @@
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/multihead.png" height=305 width=675></p>
 <p align="center"><b>Figure 4:</b> Multi-head attention function. <b>4 left</b> Dot-product attention. <b>4 right</b> Multi-head attention. <b>Source:</b> Vaswani et al. [8].</p>
 
-<b>BERT</b> <b>OpenAI-GPT</b>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Building upon the <i>transformer</i> model, Open AI released the generative pre-training model (<b>GPT</b>). The training process consisted of 2 stages, unsupervised pretraining of the transformer algorithm, followed by a supervised fine-tuning, task-specific process. The former trains the transformer for language modelling on a corpus of unsupervised tokens by maximizing the log loss of conditional probabilities of the current token and a context window of past token sequences. The latter assumes a labelled set of data to pass through the transformer architecture, after which a linear transformation layer is added with a softmax activation function for prediction. It then maximizes the log loss between predicted and actual inputs plus a language modelling loss similar to the one used for unsupervised training [13].
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### Deep reinforcement learning applications
 
@@ -146,3 +148,5 @@ general description and analysis
 
 #### <p>[12] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence
 Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
+
+#### <p>[13] A. Radford, K. Narasimhan, T. Salimans and I. Sutskever, "Improving Language Understanding by Generative Pre-Training", <i></i>, 2017.</p>
