@@ -22,7 +22,7 @@
 
 #### Embeddings
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embeddings are distributional vectors representing different levels of linguistic structures (characters and words). They capture meaning by encoding reference attributes to each structure based on the context in which it apperas, i.e. the other words and characters that tend to appear next to the target structure [1-Ch6].</p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embeddings are distributional vectors representing different levels of linguistic structures (characters and words). They capture meaning by encoding reference attributes to each structure based on the context in which it appears, i.e. the other words and characters that tend to be next to the target structure [1-Ch6].</p>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Word2vec</b> are some of the most popular word embedding algorithms. The <b>skip-gram</b> model predicts context words based on the target word. It trains a logistic regression classifier that computes the conditional probability between pairs of words with the dot product between their embeddings. Opposite to skip-gram, the continuous bag-of-words (<b>CBOW</b>) predicts a target word from the context words. Based on fully-connected NNs with one hidden-layer, these methods allow for efficient representations of dense vectors that capture semantic and syntactic information. However, they are weak on sentiment, polisemy, phrase meaning, conceptual meaning and out-of-vocabulary (OOV) words, which is problematic for some tasks [2, 1-Ch6].</p>
 
