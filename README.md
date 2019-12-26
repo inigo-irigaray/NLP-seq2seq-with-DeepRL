@@ -61,14 +61,14 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DeepFakes have put deep generative models at the center of controversy and discussion, especially with fake videos about high-ranking officials. There has been some research in the last couple of years seeking to apply these models in NLP tasks, revolving around the two most common structures: VAEs and GANs.
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variational autoencoders (<b>VAEs</b>) consist of an encoder-decoder scheme of NNs whichs is iteratively optimized. Unlike vanilla autoencoders, VAEs regularize the latent space according to a Gaussian normal distribution in order to obtain a stable and reliable representation of language structures so that the generator can sample new meaningful states from it. The loss function is calculated as the sum of the reconstruction error loss (the mean-squared error between the encoded input and decoded output) and the regularisation loss (the Kullback-Leibler divergence between the encoded distribution and the normal Gaussian distribution).
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variational autoencoders (<b>VAEs</b>) consist of an encoder-decoder scheme of NNs whichs is iteratively optimized. Unlike vanilla autoencoders, VAEs regularize the latent space according to a Gaussian normal distribution in order to obtain a stable and reliable representation of language structures so that the generator can sample new meaningful states from it. The loss function is calculated as the sum of the reconstruction error loss (the mean-squared error between the encoded input and decoded output) and the regularisation loss (the Kullback-Leibler divergence between the encoded distribution and the normal Gaussian distribution) [9]. Some modifications have successfully been implemented, like augmenting the unstructured <i>z</i> space with structured <i>c</i> variables which target specific salient semantic features of sentences (e.g. a positive/negative attribute for sentiment) [10].
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAE.png" height=305 width=839></p>
 <p align="center"><b>Figure 2:</b> VAE generation diagram. <b>Source:</b> Rocca [9].</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAEs.png" height=305 width=645></p>
 
-VAEs GANs
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generative adversarial networks (<b>GANs</b>) 
 
 #### Attention Mechanisms
 
