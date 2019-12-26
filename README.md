@@ -94,7 +94,7 @@
 
 #### Deep reinforcement learning applications
 
-basic overview
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the advancement of deep reinforcement learning some new training techniques have been proposed, where the generator networks are considered as the agent and the objective metric as the reward to be maximized [2]. One of these methods is the one proposed by Ranzato et al. [6] which is the basis for this experiment and will be explained in depth in the next section.
 
 ## 2. Seq2seq with Cross-Entropy & REINFORCE
 
