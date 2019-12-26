@@ -92,7 +92,7 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Building upon the <i>transformer</i> model, Open AI released the generative pre-training model (<b>GPT</b>). The training process consisted of 2 stages, unsupervised pretraining of the transformer algorithm, followed by a supervised fine-tuning, task-specific process. The former trains the transformer for language modelling on a corpus of unsupervised tokens by maximizing the log loss of conditional probabilities of the current token and a context window of past token sequences. The latter assumes a labelled set of data to pass through the transformer architecture, after which a linear transformation layer is added with a softmax activation function for prediction. It then maximizes the log loss between predicted and actual inputs plus a language modelling loss similar to the one used for unsupervised training [13].
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>BERT</b>
 
 #### Deep reinforcement learning applications
 
