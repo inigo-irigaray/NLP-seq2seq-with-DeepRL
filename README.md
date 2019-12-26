@@ -128,3 +128,7 @@ general description and analysis
 #### <p>[7] S. Sukhbaatar, A. Szlam, J. Weston and R. Fergus, "End-to-end Memory Networks", 2015.</p>
 
 #### <p>[8] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez and L. Kaiser, "Attention is All You Need", 2017.</p>
+
+#### <p>[9] J. Rocca, "Understanding Variational Autoencoders (VAEs)", <i>Towards Data Science</i>, 2019.</p>
+
+#### <p>[10] Z. Hu, Z. Yang, X. Liang, R. Salakhutdinov and E.P. Xing, "Toward Controlled Generation of Text", <i>arXiv:1703.00955</i>, 2017.</p>
