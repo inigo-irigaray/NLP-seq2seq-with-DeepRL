@@ -68,7 +68,7 @@
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAEs.png" height=305 width=645></p>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generative adversarial networks (<b>GANs</b>) are systems consisting of a neural network generator and discrimator. The generator will be fed random noise, from which it will create new data which replicates as much as possible the underlying distribution of some real data. The job of the generator is to trick the discriminator into believing that its output comes from real data (discriminator accuracy of 0.5), while the discriminator's mission is to separate fake from real inputs [11]. 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generative adversarial networks (<b>GANs</b>) are systems consisting of a neural network generator and discrimator. The generator will be fed random noise, from which it will create new data which replicates as much as possible the underlying distribution of some real data. The job of the generator is to trick the discriminator into believing that its output comes from real data (discriminator accuracy of 0.5), while the discriminator's mission is to separate fake from real inputs [11]. In 2017 a GAN adaptation by Yang et al. [12] achieved state-of-the-art results on machine translation by constructing a GAN with a transformer generator, a CNN discriminator and BLEU reinforced learning called BR-CSGAN.
 
 #### Attention Mechanisms
 
