@@ -59,6 +59,13 @@
 
 #### Generative
 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DeepFakes have put deep generative models at the center of controversy and discussion, especially with fake videos about high-ranking officials. There has been some research in the last couple of years seeking to apply these models in NLP tasks, revolving around the two most common structures: VAEs and GANs.
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variational autoencoders (<b>VAEs</b>) 
+
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/VAE.png" height=305 width=839></p>
+<p align="center"><b>Figure 2:</b> VAE generation diagram. <b>Source:</b> Rocca [9].</p>
+
 VAEs GANs
 
 #### Attention Mechanisms
