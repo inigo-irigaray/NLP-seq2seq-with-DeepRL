@@ -158,5 +158,4 @@ Language Understanding", <i></i>, 2018.</p>
 
 #### <p>[15] Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M, Lewis, L. Zettlemoyer and V. Stoyanov, "RoBERTa: A Robustly Optimized BERT Pretraining Approach", <i></i>, 2019.</p>
 
-#### <p>[16] V. Sanh, L. Debut, J. Chaumond and T. Wolf, "DistilBERT, a distilled version of BERT: smaller,
-faster, cheaper and lighter", <i></i>, 2019.</p>
+#### <p>[16] V. Sanh, L. Debut, J. Chaumond and T. Wolf, "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", <i></i>, 2019.</p>
