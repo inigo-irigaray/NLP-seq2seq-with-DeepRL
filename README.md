@@ -149,7 +149,6 @@ general description and analysis
 
 #### <p>[11] I.J. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville and Y. Bengio, "Generative Adversarial Networks", <i>arXiv:1406.2661</i>, 2014.</p>
 
-#### <p>[12] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence
-Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
+#### <p>[12] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
 
 #### <p>[13] A. Radford, K. Narasimhan, T. Salimans and I. Sutskever, "Improving Language Understanding by Generative Pre-Training", <i></i>, 2017.</p>
