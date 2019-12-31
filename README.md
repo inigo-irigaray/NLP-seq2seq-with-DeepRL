@@ -152,3 +152,11 @@ general description and analysis
 #### <p>[12] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
 
 #### <p>[13] A. Radford, K. Narasimhan, T. Salimans and I. Sutskever, "Improving Language Understanding by Generative Pre-Training", <i></i>, 2017.</p>
+
+#### <p>[14] J. Devlin, M. Chang, K. Lee and K. Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for
+Language Understanding", <i></i>, 2018.</p>
+
+#### <p>[15] Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M, Lewis, L. Zettlemoyer and V. Stoyanov, "RoBERTa: A Robustly Optimized BERT Pretraining Approach", <i></i>, 2019.</p>
+
+#### <p>[16] V. Sanh, L. Debut, J. Chaumond and T. Wolf, "DistilBERT, a distilled version of BERT: smaller,
+faster, cheaper and lighter", <i></i>, 2019.</p>
