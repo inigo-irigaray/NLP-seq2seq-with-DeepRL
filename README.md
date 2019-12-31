@@ -8,9 +8,9 @@
 
 <b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#2-seq2seq-with-cross-entropy--reinforce>2. seq2seq with Cross-Entropy & REINFORCE - the algorithms.</a></b> Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
 
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training>3. Training & Tests Discussion.</a></b> Analyzes the progress of the two different training methods until halting, and the corresponding performance of the model on the tests.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training--results>3. Training & Tests Discussion.</a></b> Analyzes the progress of the two different training methods until halting, and the corresponding performance of the model on the tests.
 
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#5-future-work>4. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#4-future-work>4. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
 
 
 ---------
