@@ -102,12 +102,19 @@
 
 #### seq2seq
 
+basic black box encoder decoder
+
 #### Cross-Entropy (log-likelihood)
 
-teacher-forcing vs curriculum learning
+basics
+teacher-forcing
+curriculum learning
+alternation
 
 #### REINFORCE
 
+basics of REINFORCE
+adaptation to NLP
 
 ## 3. Training
 
