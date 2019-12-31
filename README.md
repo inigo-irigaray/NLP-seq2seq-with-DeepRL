@@ -8,11 +8,9 @@
 
 <b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#2-seq2seq-with-cross-entropy--reinforce>2. seq2seq with Cross-Entropy & REINFORCE - the algorithms.</a></b> Details the specifics of the algorithms used for this particular experiment and the core structure of the approximation models employed.
 
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training>3. Training.</a></b> Analyzes the progress, duration and statistics of the two different training methods until halting.
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#3-training>3. Training & Tests Discussion.</a></b> Analyzes the progress of the two different training methods until halting, and the corresponding performance of the model on the tests.
 
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#4-results--discussion>4. Results & Discussion.</a></b> CHANGE CHANGE CHANGE Tests the chatbot agent generated from the model in the free open Telegram environment.
-
-<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#5-future-work>5. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
+<b><a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL#5-future-work>4. Future work.</a></b> Explores potential avenues of interest for future experiments.</p>
 
 
 ---------
@@ -116,17 +114,15 @@ alternation
 basics of REINFORCE
 adaptation to NLP
 
-## 3. Training
+## 3. Training & Results
 
 #### Bilingual evaluation uderstudy (BLEU)
 
 general description and analysis
 
-## 4. Results & Discussion
-
 27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
-## 5. Future Work
+## 4. Future Work
 
 
 ## References
