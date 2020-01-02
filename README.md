@@ -98,7 +98,7 @@
 
 ## 2. Seq2seq with Cross-Entropy & REINFORCE
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This section explains in detail the different algorithms employed in this experiment to solve a dialog system task individually, as well as the combination of them based on Ranzato et al.'s work that demonstrate the benefits of deep reinforcement learning for NLP.</p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This section explains in detail the different algorithms employed in this experiment to solve a dialog system task individually, as well as the combination of them based on Ranzato et al.'s [<a href=https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/README.md#9-m-ranzato-s-chopra-m-auli-and-w-zaremba-sequence-level-training-with-recurrent-neural-networks-2015>9</a>] work that demonstrate the benefits of deep reinforcement learning for NLP.</p>
   
 #### seq2seq
 
