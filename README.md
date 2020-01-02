@@ -145,7 +145,7 @@ general description and analysis
 
 ## 4. Future Work
 
-<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_argmax.png" height=305 width=279></p>
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_argmax.png" height=675 width=279></p>
 
 ## References
 
