@@ -114,11 +114,7 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An alternative approach that addresses this issue is called <i>curriculum learning</i>. This method trains the model on the distribution of its own past predictions, instead of being fed the distribution of the full target sequence to correct its own predictions. This is just like real-life situations and will help the seq2seq algorithm to model the language better for generic dialog systems. However, it increases training time dramatically, which makes it unfeasible in many situations.</p> 
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This experiment follows a combined approach of the two previous cross-entropy methodologies called Data as Demonstrated (<b>DAD</b>).
-basics
-teacher-forcing
-curriculum learning
-alternation
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This experiment follows a combined approach of the two previous cross-entropy methodologies called Data as Demonstrated (<b>DAD</b>). DAD alternates randomly at each time step between feeding the target sequence into the decoder (teacher-forcing) and feeding the argmax of previous prediction underlying distributions (curriculum learning). Thus, it can train the model at a reasonable speed, while doing a better job generalizing the model for the dialog generation problem.</p> 
 
 #### REINFORCE
 
