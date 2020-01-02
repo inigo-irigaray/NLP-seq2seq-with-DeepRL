@@ -148,34 +148,34 @@ general description and analysis
 
 ## References
 
-#### <p>[1] Y.N. Dauphin, A. Fan, M. Auli and D. Grangier, "Language Modeling with Gated Convolutional Networks", 2016.</p>
+#### <p>[1] Y.N. Dauphin, A. Fan, M. Auli and D. Grangier, "Language Modeling with Gated Convolutional Networks", <i>arXiv:1612.08083</i>, 2016.</p>
 
-#### <p>[2] J. Devlin, M. Chang, K. Lee and K. Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", <i></i>, 2018.</p>
+#### <p>[2] J. Devlin, M. Chang, K. Lee and K. Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", <i>arXiv:1810.04805</i>, 2018.</p>
 
-#### <p>[3] J. Gehring, M. Auli, D. Grangier, D. Yarats and Y.N. Dauphin, "Convolutional Sequence to Sequence Learning", 2017.</p>
+#### <p>[3] J. Gehring, M. Auli, D. Grangier, D. Yarats and Y.N. Dauphin, "Convolutional Sequence to Sequence Learning", <i>arXiv:1705.03122</i>, 2017.</p>
 
 #### <p>[4] I.J. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville and Y. Bengio, "Generative Adversarial Networks", <i>arXiv:1406.2661</i>, 2014.</p>
 
 #### <p>[5] Z. Hu, Z. Yang, X. Liang, R. Salakhutdinov and E.P. Xing, "Toward Controlled Generation of Text", <i>arXiv:1703.00955</i>, 2017.</p>
 
-#### <p>[6] D. Jurafsky and J.H. Martin, "Speech and Language Processing (Unpublished Draft)", 2019.</p>
+#### <p>[6] D. Jurafsky and J.H. Martin, <i>Speech and Language Processing (Unpublished Draft)</i>, 2019.</p>
 
-#### <p>[7] Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M, Lewis, L. Zettlemoyer and V. Stoyanov, "RoBERTa: A Robustly Optimized BERT Pretraining Approach", <i></i>, 2019.</p>
+#### <p>[7] Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M, Lewis, L. Zettlemoyer and V. Stoyanov, "RoBERTa: A Robustly Optimized BERT Pretraining Approach", <i>arXiv:1907.11692</i>, 2019.</p>
 
-#### <p>[8] A. Radford, K. Narasimhan, T. Salimans and I. Sutskever, "Improving Language Understanding by Generative Pre-Training", <i></i>, 2017.</p>
+#### <p>[8] A. Radford, K. Narasimhan, T. Salimans and I. Sutskever, "Improving Language Understanding by Generative Pre-Training", 2017.</p>
 
-#### <p>[9] M. Ranzato, S. Chopra, M. Auli and W. Zaremba, "Sequence Level Training with Recurrent Neural Networks", 2015.</p>
+#### <p>[9] M. Ranzato, S. Chopra, M. Auli and W. Zaremba, "Sequence Level Training with Recurrent Neural Networks", <i>arXiv:1511.06732</i>, 2015.</p>
 
 #### <p>[10] J. Rocca, "Understanding Variational Autoencoders (VAEs)", <i>Towards Data Science</i>, 2019.</p>
 
-#### <p>[11] V. Sanh, L. Debut, J. Chaumond and T. Wolf, "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", <i></i>, 2019.</p>
+#### <p>[11] V. Sanh, L. Debut, J. Chaumond and T. Wolf, "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", <i>arXiv:1910.01108</i>, 2019.</p>
 
 #### <p>[12] R. Socher, A. Perelygin, J.Y. Wu, J. Chuang, C.D. Manning, A.Y. Ng and C. Potts, "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", 2013.</p>
 
-#### <p>[13] S. Sukhbaatar, A. Szlam, J. Weston and R. Fergus, "End-to-end Memory Networks", 2015.</p>
+#### <p>[13] S. Sukhbaatar, A. Szlam, J. Weston and R. Fergus, "End-to-end Memory Networks", <i>arXiv:1503.08895</i>, 2015.</p>
 
-#### <p>[14] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez and L. Kaiser, "Attention is All You Need", 2017.</p>
+#### <p>[14] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez and L. Kaiser, "Attention is All You Need", <i>arXiv:1706.03762</i>, 2017.</p>
 
 #### <p>[15] Z. Yang, W. Chen, F. Wang and B. Xu, "Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets", <i>arXiv:1703.04887</i>, 2017.</p>
 
-#### <p>[16] T. Young, D. Hazarika, S. Poria and E. Cambria, "Recent Trends in Deep Learning Based Natural Language Processing", 2017.</p>
+#### <p>[16] T. Young, D. Hazarika, S. Poria and E. Cambria, "Recent Trends in Deep Learning Based Natural Language Processing", <i>arXiv:1708.02709</i>, 2017.</p>
