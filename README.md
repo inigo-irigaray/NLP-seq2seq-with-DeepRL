@@ -102,7 +102,9 @@
   
 #### seq2seq
 
-basic black box encoder decoder
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most basic necessary structure for any dialog system task, as for machine translation and other similar NLP tasks, is an algorithm capable of understanding a message to answer accordingly. This can be done at the word-level or at a higher level: sequences of words.</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The sequence-to-sequence (<b>seq2seq</b>) algorithm is a black box model that captures an input sequence of letters or words and generates a response output sequence. The heart of that black box is a generic encoder-decoder structure, where the hidden state of the encoder models the context of the input sequence, based on which the decoder will generate its corresponding output. The architecture of the model is similar to others previously introduced in Section 1. It consists of an initial embedding layer that stores word embeddings of the dictionary in a look up table of dimension 50, wheres indices of the words in the dictionary refer to their corresponding vectorized representation. Additionally, the encoder and decoder are unidirectional, single-layer LSTM networks with 512 features in the hidden state, tensors structured as (batch, seq, feature) (batch_first mode <i>True</i>) and no dropout. Finally, the decoder output passes through a linear transformation in a projection layer that converts it into a probability distribution of the dictionary tokens.</p>
 
 #### Cross-Entropy (log-likelihood)
 
