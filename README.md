@@ -120,9 +120,9 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another way to tackle NLP tasks is to frame them as reinforcement learning problems. The DRL methos used in this experiment is the <b>REINFORCE</b> algorithm. The environment in this task is the words and context vector the agent, the generator (the LSTM seq2seq), interacts with (the ones it takes as input). The agent parameterizes a policy according to which it will produce the next word in the sequence, i.e. according to which it will take an action. This will result in the agent updating its internal state, the hidden state. Once the end of the episode is reached (the end of a sequence), the agent gets a reward in the form of a performance metric (BLEU in this experiment, which will be explained in the next section). Since the BLEU metric is not differentiable, instead of performing backpropagation, REINFORCE will just push up the probabilities of successful episodes and decrease the others.</p>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This approach has multiple benefits. First of all, the stochasticity inherent to REINFORCE automatically accounts for the multiple possible target sequences. Since there could many answeers to a question as simple as "How are you?". Cross-entropy learns an oaverage of those replies, which may be suboptimal. However, REINFORCE learns the variant answers it could produce sampling from the probability distribution. Secondly, it optimizes directly the objective metric BLEU, which is our goal. Thirdly, </p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This approach has multiple benefits. First of all, the stochasticity inherent to REINFORCE automatically accounts for the multiple possible target sequences. Since there could many answeers to a question as simple as "How are you?". Cross-entropy learns an oaverage of those replies, which may be suboptimal. However, REINFORCE learns the variant answers it could produce sampling from the probability distribution. Secondly, it optimizes directly the objective metric BLEU, which is our goal.</p>
   
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, it also presents some drawbacks. 
 
 ## 3. Training & Results
 
