@@ -108,6 +108,7 @@
 
 #### Cross-Entropy (log-likelihood)
 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The traditional approach to train algorithms for dialog systems has been to treat the task as a simple classification problem, using the <b>cross-entropy method</b>. 
 basics
 teacher-forcing
 curriculum learning
