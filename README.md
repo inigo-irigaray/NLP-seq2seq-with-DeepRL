@@ -147,6 +147,8 @@ general description and analysis
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_argmax.png" height=279 width=675></p>
 
+<p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_sample.png" height=277 width=675></p>
+
 ## References
 
 #### <p>[1] Y.N. Dauphin, A. Fan, M. Auli and D. Grangier, "Language Modeling with Gated Convolutional Networks", <i>arXiv:1612.08083</i>, 2016.</p>
