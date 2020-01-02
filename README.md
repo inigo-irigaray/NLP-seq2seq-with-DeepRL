@@ -98,6 +98,8 @@
 
 ## 2. Seq2seq with Cross-Entropy & REINFORCE
 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This section explains in detail the different algorithms employed in this experiment to solve a dialog system task individually, as well as the combination of them based on Ranzato et al.'s work that demonstrate the benefits of deep reinforcement learning for NLP.</p>
+  
 #### seq2seq
 
 basic black box encoder decoder
