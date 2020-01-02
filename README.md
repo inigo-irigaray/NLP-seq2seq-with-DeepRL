@@ -132,6 +132,8 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The bilingual evaluation understady score (<b>BLEU</b>) is a standard metric used to compare input and output sequences of NLP models. BLEU calculates the geometric mean over n-grams (4 in this experiment) of overlapping words and the brevity penalty, i.e. it calculates the ratio of shared 4-grams (in our experiment) shared bewteen output and input and penalizes divergence between length of outputs and the shortest reference sentence. This metric is useful for some NLP tasks in the English language, but it is not as good with morphologically rich languages, capturing precise meaning and does not always guarantee that an answer will sound human-like, although grammarly correct. However, it does offer a benchmark quantitative measure which helps a lot to track progress for research on the NLP field.</p>
   
+#### Cornell University Movie Dialogs Corpus  
+  
 #### Training & Tests
 
 general description and analysis
