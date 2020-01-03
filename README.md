@@ -146,12 +146,16 @@
 27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_argmax.png" height=279 width=675></p>
+<p align="center"><b>Figure 7:</b> Baseline (deterministic policy) training.</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_sample.png" height=277 width=675></p>
+<p align="center"><b>Figure 8:</b> Training (sampling from policy) training.</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/loss_policy.png" height=276 width=675></p>
+<p align="center"><b>Figure 9:</b> Loss policy function.</p>
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_test.png" height=282 width=675></p>
+<p align="center"><b>Figure 10:</b> BLEU test values.</p>
 
 ## 4. Future Work
 
