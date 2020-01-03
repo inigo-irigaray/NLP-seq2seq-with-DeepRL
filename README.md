@@ -143,6 +143,7 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are a couple of reasons for this remarkable divergence in raw BLEU scores and training / testing progress. First, as noted before, the dataset is very limited and does not help generalizing content generation for previously unseen data. Second, the model seems to start overfitting around epoch 40. Third, as explained before, cross-entropy tries to create good average answers, but does not take into account that for some inputs there are many multiple possible responses which are correct or could be more suitable for different situations.</p>
 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>REINFORCE learning</b> was performed on a GPU accelerator on the cloud via Vast.ai, with batches of size 16, learning rate 0.0001 and a maximum of 10,000 epochs. Training, however, was halted at 210 epochs after more than 2 days and 2 hours of training due to cost and resource limitations and the evolution of training and testing progress. The weights of the model neural networks were initialized from the cross-entropy pretrained weights at epoch 40, training BLEU 0.579 and test BLEU 0.113. This specific initialization was chosen, since it showed high test BLEU around the time when cross-entropy training was stabilizing, right before plummeting due to overfitting and after some considerable amount of training.</p>
 27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_argmax.png" height=279 width=675></p>
@@ -150,6 +151,8 @@
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_sample.png" height=277 width=675></p>
 <p align="center"><b>Figure 8:</b> Training (sampling from policy) training.</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/loss_policy.png" height=276 width=675></p>
 <p align="center"><b>Figure 9:</b> Loss policy function.</p>
