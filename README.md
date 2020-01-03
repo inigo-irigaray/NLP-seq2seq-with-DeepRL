@@ -127,7 +127,7 @@
 
 ## 3. Training & Results
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this experiment we consider the results of two training methods: simple cross-entropy learning and cross-entropy with deep reinforcment learning. To measure performance of the model, training progress and comparison purposes, the BLEU metric is used to measure the accuracy of the outputs generated.</p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this experiment we consider the results of two training methods: simple cross-entropy learning and cross-entropy with deep reinforcment learning. To measure performance of the model, training progress and comparison purposes, the BLEU metric is used to measure the accuracy of the outputs generated. (Note: cornell.py and data_p.py were given along the datasets, with only minor modifications being done. All other files have been implemented by the author.)</p>
 
 #### Bilingual evaluation uderstudy (BLEU)
 
