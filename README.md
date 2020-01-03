@@ -139,7 +139,9 @@
   
 #### Training & Tests
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple cross-entropy learning was performed on a GPU accelerator on the cloub via Google Colab, with batches of size 32, learning rate 0.001 and trained for 100 epochs in 3 hours 34 minutes. (Note: xentr_train.ipynb imports the data file data.py while for the rl_training.ipynb the file was slightly modified to account for differences in repository locations and renamed data_p.py, which is the file finally uploaded to this repository).
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple cross-entropy learning was performed on a GPU accelerator on the cloub via Google Colab, with batches of size 32, learning rate 0.001 and trained for 100 epochs in 3 hours 34 minutes. The model seems to improve persistently cutting the loss value from a starting 4.998 to 1.192 at the end of training and reaching training BLEU score high of 0.792 at epoch 96 from an initial 0.156. While this learning progress seems impressive, it fails to generalize well, as shown from the results from test data. The BLEU score peaked at 0.121 at epoch 7. It seems to be a lucky try, however, as it is a spike unrepresentative of the overall trend of tests scores and the model had barely started training. As training progressed, test results seem to stabilize around 1.111, until epoch 40 when BLEU scores started deteriorating until the end of training. It is noteworthy that training scores kept increasing during this time. (Note: xentr_train.ipynb imports the data file data.py while for the rl_training.ipynb the file was slightly modified to account for differences in repository locations and renamed data_p.py, which is the file finally uploaded to this repository).</p>
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are a couple of reasons for this remarkable divergence in raw BLEU scores and training / testing progress. First, as noted before, the dataset is very limited and does not help generalizing content generation for previously unseen data. Second, the model seems to start overfitting around epoch 40. Third, as explained before, cross-entropy tries to create good average answers, but does not take into account that for some inputs there are many multiple possible responses which are correct or could be more suitable for different situations.</p>
 
 27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
@@ -152,6 +154,8 @@
 <p align="center"><img src="https://github.com/inigo-irigaray/NLP-seq2seq-with-DeepRL/blob/master/images/bleu_test.png" height=282 width=675></p>
 
 ## 4. Future Work
+
+introduce regularization.
 
 ## References
 
