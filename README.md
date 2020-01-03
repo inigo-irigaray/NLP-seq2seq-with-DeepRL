@@ -139,8 +139,7 @@
   
 #### Training & Tests
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-general description and analysis
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple cross-entropy learning was performed on a GPU accelerator on the cloub via Google Colab, with batches of size 32, learning rate 0.001 and trained for 100 epochs in 3 hours 34 minutes. (Note: xentr_train.ipynb imports the data file data.py while for the rl_training.ipynb the file was slightly modified to account for differences in repository locations and renamed data_p.py, which is the file finally uploaded to this repository).
 
 27% improvement. results deteriorating, while training improving -> overfitting to the limited dataset base of dialogues
 
