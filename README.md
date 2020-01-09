@@ -164,7 +164,7 @@
 
 ## 4. Future Work
 
-introduce regularization.
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of BERT represented a landmark moment for NLP, leading to more successful works down the line relying on its basic structure. It would be a great learning opportunity to develop my own implementation of the algorithm. However, even new state-of-the-art BERT models like DistilBERTthat improve efficiency in training and accesibility to people with lower capacities beyond giants like Google, require enormous resources beyond my personal capabilities. Another possible interesting point for future research is the GAN-transformer implementation BR-CSGAN. At the moment, I am currently working on the implementation of my BR-CSGAN model to experience first-hand the benefits of transformers and the combination of other architectures different to traditional RNNs or LSTMs.</p>
 
 ## References
 
